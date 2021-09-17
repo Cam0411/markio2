@@ -24,18 +24,19 @@
 }
 .header__logo 
 {
-    padding: 20px;
+    padding: 17px;
     color: #fff;
-
+    font-size: 30px;
 }
 .header__nav li
 {
     display: inline-block;
     padding: 15px;
     font-weight: 700;
-    margin-top: 10px;
     font-size: 14px;
     position: relative;
+    line-height: 40px;
+
 }
 .header__nav li a 
 {
