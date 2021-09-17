@@ -146,7 +146,7 @@ font-size: 15px;
     font-size: 15px;
 }
 }
-@media(min-width:1050px){
+@media(min-width:1021px){
     .slider__about 
 {
     width: 468px;
