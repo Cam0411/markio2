@@ -233,7 +233,7 @@
 .slider__info i 
 {
     color: #02dcb3;
-    padding: 5px;
+    margin-right: 7px;
 }
 .slider__box 
 {
@@ -318,6 +318,115 @@
 }
 #content__2 
 {
-    height: 500px;
+    height: 650px;
+    background: #212d37;
+}
+.content__2-all-text 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content__2-all-text img 
+{
+    margin-top: 60px;
+}
+.content__2-sub-all-text 
+{
+    padding: 20px;
+    margin-top: 50px;
+}
+.content__2-heading 
+{
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.content__2-sub-heading 
+{
+    color: #fff;
+    font-size: 50px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+.content_-2-about 
+{
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 28px;
+    color: #c0c3c6;
+}
+#content__3
+{
+    height: 1200px;
     background: #1c262f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content__3-all-box 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content__3-all-text
+{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+.content__3-heading 
+{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.content__3-sub-heading 
+{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.content__3-box 
+{
+    width: 33%;
+    border: 2px solid #fff;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.content__3-about 
+{
+    margin-bottom: 30px;
+    line-height: 28px;
+    color: #c0c3c6;
+}
+.content__3-box:hover
+{
+     transform: scale(1.02);
+     box-shadow: 5px 5px 0px 0px #02dcb3;
+     border: 2px solid #02dcb3;
+}
+.content__3-box i 
+{
+    font-size: 30px;
+    color: #02dcb3;
+    margin-bottom: 20px;
+}
+.content__3-box-heading
+{
+      font-size: 16px;
+      margin-bottom: 20px;
+}
+.content__3-box-about
+{
+    line-height: 28px;
+    font-size: 15px;
+    color: #c0c3c6;
 }
