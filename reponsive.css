@@ -245,16 +245,13 @@ font-size: 15px;
 }
 .content__7-flex
 {
-    height: 351px;
+    height: 481px;
     display: flex;
     flex-direction: column ;
     align-items: center;
     text-align: center;
 }
-.content__7-heading 
-{
-    margin-top: 150px;
-}
+
 .content__7-text 
 {
     padding: 10px;
@@ -559,17 +556,14 @@ font-size: 15px;
 }
 .content__7-flex
 {
-    height: 281px;
+    height: 381px;
     display: flex;
     flex-direction: column ;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.content__7-heading 
-{
-    margin-top: 150px;
-}
+
 .content__7-text 
 {
     padding: 10px;
