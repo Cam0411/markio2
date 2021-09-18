@@ -603,7 +603,7 @@
 {
     height: 181px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .content__7-heading 
@@ -628,7 +628,7 @@
 .content__7-text 
 {
     padding: 10px;
-    width: 300px;
+    width: 350px;
     
     border: none;
     outline: none;
@@ -653,4 +653,108 @@
 .content__7-all-text 
 {
     padding: 20px;
+}
+#content__8 
+{
+    height: 700px;
+    background: #1c262f;
+}
+#content__8 img 
+{
+    width: 50%;
+    padding: 20px;
+}
+.content__8-flex 
+{
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+.content__8-input
+{
+    display: block;
+    width: 80%;
+}
+.content__8-text 
+{
+    display: block;
+    width: 100%;
+}
+.content__8-heading 
+{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.content__8-sub-heading 
+{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.content__8-all-text 
+{
+   
+    color: #c0c3c6;
+     padding: 20px;
+}
+.content__8-about 
+{
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.content__8-text 
+{
+    font-size: 16px;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    outline-color: #02dcb3;
+}
+.content__8-submit 
+{
+    background: none;
+    appearance: none;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    border-radius: 0;
+    -webkit-border-radius:0;
+}
+.content__8-text-2 
+{
+    height: 70px;
+}
+.to__top 
+{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    background: #323137;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+.to__top a
+{
+    color: #fff ;
+}
+.to__top.active 
+{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeup linear 0.4s;
+}
+.to__top.active:hover 
+{
+    background: #000;
 }
