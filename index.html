@@ -133,6 +133,87 @@
                    </div>
                </div>
            </div>
+           <div id="content__4">
+               <div class="grid">
+                   <h1 class="content__4-heading">OUR PLANS</h1>
+                   <h2 class="cobtent__4-sub-heading">Explore unlimited possibilities</h2>
+                   <p class="content__4-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae asperiores,
+                        quia accusantium sunt corporis optio recusandae? Nostrum libero pariatur cumque, 
+                       ipsa dolores voluptatibus voluptate alias sit fuga. Itaque, ea quo.</p>
+                       <div class="content__4-all-box">
+                           <div class="content__4-box">
+                             <h1 class="content__4-box-heading">BASIC BUNDLE</h1>
+                             <p class="content__4-box-about">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                             <ul class="content__4-list">
+                                 <li><i class="far fa-check-circle"></i> Lorem ipsum dolor sit amet.</li>
+                                 <li> <i class="far fa-check-circle"></i>Lorem ipsum dolor sit amet.</li>
+                                 <li><i class="far fa-check-circle"></i>Lorem ipsum dolor sit amet.</li>
+                                 <li><i class="far fa-check-circle"></i>Lorem ipsum dolor sit amet.</li>
+                             </ul>
+                             <h1 class="content__4-cost">$24/Month</h1>
+                             <p class="slider__box">Views Plans</p>
+                           </div>
+                           <div class="content__4-box">
+                            <h1 class="content__4-box-heading">BUSINESS BUNDLE</h1>
+                            <p class="content__4-box-about">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <ul class="content__4-list">
+                                <li><i class="far fa-check-circle"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="far fa-check-circle"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="far fa-check-circle"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="far fa-check-circle"></i>Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                            <h1 class="content__4-cost">$99/Month</h1>
+                            <p class="slider__box">Views Plans</p>
+                        </div>
+                        <div class="content__4-box">
+                            <h1 class="content__4-box-heading">PREMIUM BUNDLE</h1>
+                            <p class="content__4-box-about">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <ul class="content__4-list">
+                                <li><i class="far fa-check-circle"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="far fa-check-circle"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="far fa-check-circle"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="far fa-check-circle"></i>Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                            <h1 class="content__4-cost">$199/Month</h1>
+                            <p class="slider__box">Views Plans</p>
+                        </div>
+                       </div>
+               </div>
+           </div>
+           <div id="content__5">
+               <div class="grid content__5-flex">
+                   <img src="work.jpg" alt="" srcset="">
+                   <div class="content__5-all-txt">
+                       <h1 class="content__5-heading">OUR WORK</h1>
+                       <h2 class="content__5-sub-heading">Explore unlimited possibilities</h2>
+                       <p class="content__5-about">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos 
+                           dicta mollitia totam explicabo obcaecati quia laudantium repudiandae.</p>
+                    <ul class="content__5-list-count">
+                             <div class="content__5-counter">  
+                                <i class="fas fa-briefcase"></i>
+                                <li class="counter" data-target="1000">0</li>
+                                <h1 class="content__5-sub-heading-2">PROJECTS COMPLETED</h1>
+                            </div>
+                            <div class="content__5-counter">  
+                                <i class="fas fa-briefcase"></i>
+                                <li class="counter" data-target="400">0</li>
+                                <h1 class="content__5-sub-heading-2">PROJECTS COMPLETED</h1>
+                            </div>
+                            <div class="content__5-counter">  
+                                <i class="fas fa-briefcase"></i>
+                                <li class="counter" data-target="600">0</li>
+                                <h1 class="content__5-sub-heading-2">PROJECTS COMPLETED</h1>
+                            </div>
+                            <div class="content__5-counter">  
+                                <i class="fas fa-briefcase"></i>
+                                <li class="counter" data-target="1000">0</li>
+                                <h1 class="content__5-sub-heading-2">PROJECTS COMPLETED</h1>
+                            </div>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+           </div>
     <div class="modal">
         <div class="modal__content">
             <div class="modal__close">
@@ -169,6 +250,38 @@
              menu.addEventListener("click",showModal)
          }
          modalClose.addEventListener("click",hideModal)
+    </script>
+
+
+    <script>
+        const counters = document.querySelectorAll('.counter');
+const speed = 200; // The lower the slower
+
+counters.forEach(counter => {
+	const updateCount = () => {
+		const target = +counter.getAttribute('data-target');
+		const count = +counter.innerText;
+
+		// Lower inc to slow and higher to slow
+		const inc = target / speed;
+
+		// console.log(inc);
+		// console.log(count);
+
+		// Check if target is reached
+		if (count < target) {
+			// Add inc to count and output in counter
+			counter.innerText = count + inc;
+			// Call function every ms
+			setTimeout(updateCount, 1);
+		} else {
+			counter.innerText = target;
+		}
+	};
+
+	updateCount();
+});
+
     </script>
 </body>
 </html>
