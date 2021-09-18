@@ -246,6 +246,7 @@
    box-shadow: 5px 5px 0px 0px #02dcb3;
    border-image-source: var(--gradient);
    transition: 0.4s;
+   cursor: pointer;
 }
 .slider__box:hover 
 {
@@ -592,4 +593,64 @@
 .content__5-list-count .content__5-counter
 {
     margin-bottom: 70px;
+}
+#content__7
+{
+    height: 181px;
+    background: #212d37;
+}
+.content__7-flex
+{
+    height: 181px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content__7-heading 
+{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.content__7-about 
+{
+    color: #c0c3c6;
+    line-height: 28px;
+}
+.content__7-input 
+{
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    
+}
+.content__7-text 
+{
+    padding: 10px;
+    width: 300px;
+    
+    border: none;
+    outline: none;
+    font-size: 16px;
+ 
+}
+.content__7-btn 
+{
+    padding: 10px;
+    width: 100px;
+    background: none;
+    border: 2px solid #02dcb3;
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+    font-size: 16px;
+}
+.content__7-btn:hover 
+{
+    background-image: linear-gradient(to right,#0be667,#01dbb4 );
+}
+.content__7-all-text 
+{
+    padding: 20px;
 }
